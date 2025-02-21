@@ -14,4 +14,3 @@ echo str_word_count("Hello world!");
 </html>
 
 
-(56)(55)Lenght of string using built in function.php
