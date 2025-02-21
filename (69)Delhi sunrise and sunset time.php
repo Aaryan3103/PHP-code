@@ -7,17 +7,17 @@ WAP in php to demonstrate sunrise() and sunset() time of Delhi
 <?php
 
     // Calculate the sunrise and sunset time for New Delhi, India
-    // Latitude: 28.70 North
-    // Longitude: 77.10 East
+    // Latitude: 38.4 North
+    // Longitude: 9 West
     // Zenith ~= 90
-    // Offset: +5.5 GMT (India Standard Time)
+    // Offset: +1 GMT 
     
     echo "New Delhi, India <br>";
     echo("Date: " . date("D M d Y"));
     echo("<br>Sunrise time: ");
-    echo(date_sunrise(time(), SUNFUNCS_RET_STRING, 28.70, 77.10, 90, 5.5));
+    echo(date_sunrise(time(), SUNFUNCS_RET_STRING, 28.7041, 77.1025, 90.5, 5.5));
     echo("<br>Sunset time: ");
-    echo(date_sunset(time(), SUNFUNCS_RET_STRING, 28.70, 77.10, 90, 5.5));
+    echo(date_sunset(time(), SUNFUNCS_RET_STRING, 28.7041, 77.1025, 90.6, 5.5));
 
 ?>
 
