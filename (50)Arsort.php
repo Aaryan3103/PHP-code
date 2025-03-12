@@ -1,4 +1,4 @@
-WAP in php to demonstrate asort() an array in descending order according to value
+WAP in php to demonstrate arsort() an array in descending order according to value
 <br>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@ WAP in php to demonstrate asort() an array in descending order according to valu
     $age = array("Peter"=>20, "Harry"=>14, "John"=>45, "Clark"=>35);
      
     // Sorting array by value and print
-    asort($age);
+    arsort($age);
     print_r($age);
 
 ?>
