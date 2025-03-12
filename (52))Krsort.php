@@ -12,7 +12,7 @@ WAP in php to demonstrate krsort() an array in desscending order by key
     $age = array("Peter"=>20, "Harry"=>14, "John"=>45, "Clark"=>35);
      
     // Sorting array by value and print
-    asort($age);
+    krsort($age);
     print_r($age);
 
 ?>
